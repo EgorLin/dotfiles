@@ -1,0 +1,65 @@
+format = """
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$cmd_duration\
+$fill\
+$nodejs\
+$rust\
+$golang\
+$php\
+$line_break\
+$character"""
+
+[fill]
+symbol=" "
+
+[directory]
+style = "fg:#88f8c7"
+format = "[ $path ]($style)"
+truncation_length = 7
+truncate_to_repo = true
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = ""
+"Downloads" = ""
+"Music" = ""
+"Pictures" = ""
+"projects" = "󰢹"
+
+[git_branch]
+# symbol = ""
+style = "fg:#394260"
+format = '[[$branch](fg:#008861)]($style)'
+
+[git_status]
+style = "fg:#ff897d"
+format = '[[($all_status$ahead_behind)](fg:#ff897d)]($style)'
+
+[cmd_duration]
+style = "bold fg:#f9e2af"
+format = ' took [$duration]($style)'
+
+[nodejs]
+symbol = ""
+style = "fg:#aaedff"
+format = '[[ $symbol ($version) ](fg:#aaedff)]($style)'
+
+[rust]
+symbol = ""
+style = "fg:#aaedff"
+format = '[[ $symbol ($version) ](fg:#aaedff)]($style)'
+
+[golang]
+symbol = "ﳑ"
+style = "fg:#aaedff"
+format = '[[ $symbol ($version) ](fg:#aaedff)]($style)'
+
+[php]
+symbol = ""
+style = "fg:#aaedff"
+format = '[[ $symbol ($version) ](fg:#aaedff)]($style)'
+
+[character]

@@ -1,0 +1,38 @@
+daemonize
+show-failed-attempts
+clock
+screenshot
+effect-blur=7x3
+effect-vignette=0.5:0.5
+color=1f1d2e80
+font="IBM Plex Mono"
+indicator
+indicator-radius=250
+indicator-thickness=20
+line-color=1D2622
+ring-color=1D2622
+inside-color=191c1a
+key-hl-color=6bdbac
+separator-color=00000000
+text-color=e1e3df
+text-caps-lock-color=""
+line-ver-color=6bdbac
+ring-ver-color=6bdbac
+inside-ver-color=005139
+text-ver-color=88f8c7
+line-wrong-color=690005
+ring-wrong-color=ffdad6
+text-wrong-color=ffdad6
+inside-wrong-color=690005
+inside-clear-color=004e5c
+text-clear-color=aaedff
+ring-clear-color=aaedff
+line-clear-color=004e5c
+bs-hl-color=31748f
+grace=2
+grace-no-mouse
+grace-no-touch
+datestr=%a, %B %e
+timestr=%I:%M %p
+fade-in=0.6
+ignore-empty-password

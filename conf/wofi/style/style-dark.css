@@ -1,0 +1,78 @@
+window {
+    margin: 0px;
+    background-color: #191c1a;
+    border-radius: 18px;
+    font-family: "IBM Plex Mono", sans-serif;
+}
+
+#input {
+    padding: 4px;
+    margin: 4px;
+    /* padding-left: 20px; */
+    color: #e1e3df;
+    font-weight: bold;
+    background-color: #191c1a;
+   	outline: none;
+    border-radius: 18px;
+    /* margin: 10px; */
+    margin-bottom: 2px;
+    border: 2px solid rgba(#191c1a, 0);
+}
+
+#input:focus {
+    border: 2px solid #bdffde;
+    margin-bottom: 0px;
+}
+
+#inner-box {
+    margin: 4px;
+    color: #e1e3df;
+    font-weight: bold;
+    border-radius: 18px;
+}
+
+#outer-box {
+    margin: 0px;
+    border: none;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+#scroll {
+    margin-top: 5px;
+    border: none;
+    border-radius: 18px;
+    margin-bottom: 5px;
+}
+
+#img {
+  margin-right: 10px;
+  width: 10px;
+}
+
+#img:selected {
+    background-color: #005139;
+    border-radius: 18px;
+}
+
+#text:selected {
+    color: #bdffde;
+    margin: 0px 0px;
+    border: none;
+    border-radius: 18px;
+    background-color: #005139;
+}
+
+#entry {
+    margin: 0px 0px;
+    border: none;
+    border-radius: 18px;
+    background-color: transparent;
+}
+
+#entry:selected {
+    margin: 0px 0px;
+    border: none;
+    border-radius: 18px;
+    background-color: #005139;
+}

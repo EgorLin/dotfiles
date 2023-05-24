@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cp -rf ~/myConf/conf/hypr ~/.config/
+cp -rf ~/myConf/conf/kitty ~/.config/
+cp -rf ~/myConf/conf/mako ~/.config/
+cp -rf ~/myConf/conf/swaylock ~/.config/
+cp -rf ~/myConf/conf/waybar ~/.config/
+cp -rf ~/myConf/conf/wlogout ~/.config/
+cp -rf ~/myConf/conf/wofi ~/.config/
+cp -rf ~/myConf/conf/nvim ~/.config/
+
+cp -rf ~/myConf/wallpapers ~/Pictures/

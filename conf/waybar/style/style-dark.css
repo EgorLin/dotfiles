@@ -1,0 +1,67 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "IBM Plex Mono";
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+}
+
+#custom-launch_wofi,
+#custom-lock_screen,
+#custom-light_dark,
+#custom-power_btn,
+#custom-power_profile,
+#custom-weather,
+#window,
+#cpu,
+#disk,
+#custom-updates,
+#memory,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#tray,
+#temperature,
+#workspaces,
+#backlight {
+    background: #004e5c;
+    /* background: #005139; */
+    padding: 6px 10px;
+    margin-top: 20px;
+    border: 0px;
+    color: #d7f6ff;
+    /* color: #bdffde; */
+}
+
+#custom-updates {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+#custom-updates,
+#clock {
+  border-radius: 18px;
+}
+
+#tray, #temperature, #backlight, #cpu {
+    border-radius: 18px 0px 0px 18px;
+}
+
+#custom-light_dark, #pulseaudio.microphone, #battery, #disk {
+    border-radius: 0px 18px 18px 0px;
+    margin-right: 10px;
+}
+
+#custom-light_dark {
+  margin-right: 20px;
+}
+
+#temperature.critical {
+    color: #e92d4d;
+}

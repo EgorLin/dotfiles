@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo -e "Coping basic configs"
+cp -r ~/.config/hypr/ ~/myConf/conf/
+cp -r ~/.config/kitty/ ~/myConf/conf/
+cp -r ~/.config/mako/ ~/myConf/conf/
+cp -r ~/.config/swaylock/ ~/myConf/conf/
+cp -r ~/.config/waybar/ ~/myConf/conf/
+cp -r ~/.config/wlogout/ ~/myConf/conf/
+cp -r ~/.config/wofi/ ~/myConf/conf/
+cp -r ~/.config/nvim/ ~/myConf/conf/
+cp -r ~/.config/starship.toml ~/myConf/conf
+
+echo -e "Coping sddm"
+sudo cp -r /usr/share/sddm/themes/ ~/myConf/conf/sddm/themes
+
+echo -e "Coping wallpapers"
+cp -r ~/Pictures/wallpapers ~/myConf/
